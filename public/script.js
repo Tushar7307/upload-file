@@ -35,6 +35,7 @@ function fun() {
       .replace("=", "")
       .replace('"', "")
       .replace('"', "");
+    console.log(temp)
     const url = window.URL.createObjectURL(new Blob([response.data]));
     const link = document.createElement("a");
     link.href = url;

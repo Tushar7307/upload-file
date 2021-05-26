@@ -46,3 +46,27 @@ form input {
     margin-left: 16rem;
     margin-top:-6.7rem;
 }
+#name1{
+    margin-top:15px;
+    height:3rem;
+    width:33.5rem;
+}
+.label{
+    margin-top:100px;
+}
+.in-group{
+    padding-top:10px;
+    margin-bottom:15px;
+}
+.content{
+    padding:10px;
+    width:35rem;
+    height:13rem;
+    background:#fff;
+}
+.btn3{
+
+    position: absolute;
+    margin-left:17rem;
+    margin-top:-3.85rem;
+}

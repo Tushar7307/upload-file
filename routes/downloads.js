@@ -23,7 +23,7 @@ router.get("/download", (req, res) => {
             const filePath = `/home/tushar/Desktop/upload-files/${resp[0].image}`;
             // res.send({"name":resp[0].image.replace("uploads/","")}
             res.setHeader("Content-Dispositon",resp[0].image)
-            // res.download(filePath,'kdkwgfjehgfhjegjf'0)
+            res.download(filePath)
     
     
         }

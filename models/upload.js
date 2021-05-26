@@ -11,8 +11,7 @@ const uploadSchema = new mongoose.Schema({
         type:String,
     },
     id:{
-        type:Number,
-        unique:true
+        type:Number
     }
 });
 
