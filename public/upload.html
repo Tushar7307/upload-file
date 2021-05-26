@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>upload_file</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+        <h1>File Upload</h1>
+        <form id='form' action="">
+            <div class="input-group">
+                <label for='name'>File Description</label>
+                <input name='description' id='name' placeholder="Enter File desc" />
+            </div>
+            <div class="input-group">
+              <label for='id'>File Id</label>
+              <input name='id' id='id' placeholder="Enter File Id" />
+          </div>
+            <div class="input-group">
+                <label for='files'>Select files</label>
+                <input id='files' type="file" multiple>
+            </div>
+            <button class="submit-btn btn1" onclick="submitForm()" type='submit'>Upload</button>
+            
+        </form>
+        <form action="/api/downloads">
+          <button class="submit-btn btn2" type='submit'href="">Go To Download</button>
+        </form>
+    </div>
+    <script src='/script.js'></script>
+</body>
+</html>
